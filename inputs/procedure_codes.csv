@@ -1,0 +1,18 @@
+family,code,system,count_as_procedure,description,list,facility_code_for
+TURP,52601,CPT,1,transurethral resection of the prostate,plan,
+TUIP,52450,CPT,1,transurethral incision of the prostate,plan,
+Laser coagulation,52647,CPT,1,laser coagulation of the prostate,plan,
+PVP,52648,CPT,1,laser vaporization of the prostate,plan,
+HoLEP,52649,CPT,1,laser enucleation of the prostate,plan,
+Urethral lift,52441,CPT,1,prostatic urethral lift with one implant,plan,
+Urethral lift,52442,CPT,0,each additional prostatic urethral lift implant (add-on),plan,
+Water vapor,53854,CPT,1,transurethral water vapor thermal therapy of the prostate,plan,
+TUMT,53850,CPT,1,transurethral microwave thermotherapy of the prostate,plan,
+TUNA,53852,CPT,1,transurethral radiofrequency thermotherapy of the prostate,plan,
+Aquablation,0421T,CPT,1,transurethral waterjet ablation of the prostate,plan,
+Open prostatectomy,55821,CPT,1,open suprapubic simple prostatectomy,plan,
+Open prostatectomy,55831,CPT,1,open retropubic simple prostatectomy,plan,
+Retreatment of regrowth,52630,CPT,0,transurethral resection of residual or regrown prostate tissue,plan,
+Laparoscopic simple prostatectomy,55867,CPT,1,"laparoscopic simple subtotal prostatectomy, robotic assistance included when performed",amendment 1,
+Urethral lift,C9739,HCPCS,0,hospital outpatient or ASC facility code for urethral lift with 1 to 3 implants,amendment 3,52441
+Urethral lift,C9740,HCPCS,0,hospital outpatient or ASC facility code for urethral lift with 4 or more implants,amendment 3,52441

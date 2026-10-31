@@ -1,0 +1,13 @@
+"id","statement","result","met"
+"P1","TURP falls >= 20%, 2015-2024","-18.8% as planned (-21.7% after removing ASC facility claims)",FALSE
+"P2","Urethral lift + water vapor share higher in 2024 than 2016 and >= 20%","6.3% in 2016, 20.2% in 2024 (corrected 6.6%, 21.2%)",TRUE
+"P3","Office share of urethral lift higher in 2024 than 2016","38.1% in 2016, 25.0% in 2024",FALSE
+"P4","MS-DRG 713-714 discharges fall >= 30%, 2015-2024","8128 to 4966 (-38.9%)",TRUE
+"P5","Office total below HOPD total for every family billed in both","TUNA $1,396 vs $3,531; Urethral lift $5,245 vs $8,677; Water vapor $3,396 vs $3,649",TRUE
+"P6","New-therapy payment moves the 5-year result most","displaces $3.8M; payment $42.7M; retreatment $4.1M; uptake $12.9M; volume $2.5M",TRUE
+"K1","R and Excel agree within $1","max gap $1.1e-06",TRUE
+"K2","Facility claims average within 20% of CY2026 rate (planned)","2 of 7 codes pass",FALSE
+"K3","Office claims average within 20% of CY2026 rate (planned)","2 of 3 codes pass",FALSE
+"K2/K3 amended","Professional claims only vs CY2024 rate (post hoc)","K2 amended 52601 1.03; K2 amended 52648 1.08; K2 amended 52649 0.99; K2 amended 52441 0.96; K3 amended 52441 0.98; K2 amended 52442 0.99; K3 amended 52442 0.99; K2 amended 53854 1.26; K3 amended 53854 0.98; K2 amended 52630 1.28; K2 amended 55867 0.76",FALSE
+"K4","Every planned code found in file 1","14 of 14",TRUE
+"K5","State rows sum to 95-100% of national, every family","Aquablation 0.99; HoLEP 0.99; Laser coagulation no state rows; Open prostatectomy 0.52; PVP 0.99; TUIP 0.85; TUMT 0.97; TUNA 0.52; TURP 1.00; Urethral lift 1.00; Water vapor 0.96",FALSE

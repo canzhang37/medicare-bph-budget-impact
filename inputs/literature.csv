@@ -1,0 +1,9 @@
+family,role,pmid,source,design,patients,followup_years,cum_retreatment,abstract_text
+TURP,base,15774249,"Madersbacher 2005, Eur Urol",nationwide registry (Austria),23123,5,0.058,"1, 5 and 8 years were 2.9%, 5.8% and 7.4%"
+TURP,high,29447947,"Geneva 80-W GreenLight vs TURP RCT, Urology 2018",single-center randomized trial (TURP arm),238,5,0.119,11.9% in the TURP group
+PVP,base,29447947,"Geneva 80-W GreenLight vs TURP RCT, Urology 2018",single-center randomized trial (laser arm),238,5,0.143,The re-treatment rate was 14.3% in the GL PV group
+HoLEP,base,17498867,"HoLEP long-term results, Eur Urol 2007",single-center retrospective series,118,4.12,0.042,reoperation rate for recurrent benign prostatic hyperplasia obstruction was 4.2%
+Urethral lift,base,28646935,"L.I.F.T. 5-year, Can J Urol 2017",sham-controlled randomized trial,206,5,0.136,Surgical retreatment was 13.6% over 5 years
+Water vapor,base,33872051,"Rezum 5-year, J Urol 2021",sham-controlled randomized trial,197,5,0.044,Surgical re-treatment rate was 4.4%
+Aquablation,base,39539565,"WATER 5-year, BJUI Compass 2024",double-blind randomized trial vs TURP,116,5,0.05,free from surgical retreatment (WATER: 95%
+Aquablation,low,39539565,"WATER II 5-year, BJUI Compass 2024",single-arm trial (80-150 cc),NA,5,0.03,WATER II: 97%)

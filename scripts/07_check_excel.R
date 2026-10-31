@@ -1,0 +1,10 @@
+# K1: R vs Excel within $1
+r <- read.csv("results/bim_r_by_year.csv")
+x <- read.csv("results/bim_excel_by_year.csv")
+m <- merge(r, x, by = c("case", "year"), suffixes = c("_r", "_excel"))
+stopifnot(nrow(m) == nrow(r), nrow(m) == 45)
+cols <- c("total_current", "total_new", "net_impact", "new_therapy_patients")
+gap <- sapply(cols, function(k) max(abs(m[[paste0(k, "_r")]] - m[[paste0(k, "_excel")]])))
+k1 <- data.frame(quantity = cols, max_abs_difference = gap, pass = gap < 1)
+write.csv(k1, "results/k1_r_vs_excel.csv", row.names = FALSE)
+print(k1)

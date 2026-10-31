@@ -1,0 +1,6 @@
+icd10pcs,description,families
+0VT08ZZ,resection of prostate by transurethral endoscopy,TURP; HoLEP
+0VB08ZZ,partial excision of prostate by transurethral endoscopy,TURP; TUIP
+0V508ZZ,destruction of prostate tissue by transurethral endoscopy,PVP; Laser coagulation; Water vapor; Aquablation
+0V507ZZ,destruction of prostate tissue through the urethra without endoscopy,TUMT; TUNA
+0VT00ZZ,open resection of prostate,Open prostatectomy
